@@ -1,0 +1,346 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;  
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h2 {
+    font-size: 1.5em;
+    color: rgb(8, 8, 8);
+}
+p {
+    font-size: 1em;
+    color: rgb(6, 7, 8);
+}
+/* CABEÇALHO */
+.cabecalho {
+    width: 100%;
+    height: 100px 8%;
+    float: left;
+    padding: 2px 8%;
+    background-color: #6e69df;
+}
+.cabecalho h2 {
+    float: left;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+}
+.logo a {
+    width: 84px;
+    height: 95px;
+    float: left;
+    margin-left: 1px;
+    margin-top: 5px;
+    background-image: url(imagem/tech_iot_icon_158147.ico);
+    font-size: 0;
+}
+.cabecalho form {
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+}
+.cabecalho input[type = 'text'] {
+    width: 79%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0 0 10px;
+    border-color: #5d58b9;
+}
+.cabecalho button {
+    width: 20.6%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    border-color: #5d58b9;
+    background-color: white;
+    color: black;
+}
+/* MENU */
+.menu {
+    width: 100%;
+    float: right;
+    background-color: rgba(0, 0, 0);
+    padding: 10px 8%;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin-right: 9px;
+    font-size: 20px;
+}
+.menu li a:hover {
+    color: rgb(5, 91, 219);
+    font-size: larger;
+    
+}
+/* SOCIAL */
+.social-icons {
+    float: right;
+    width: 25%;
+    font-size: 21px;
+}
+.social-icons a {
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 13px;
+}
+.fa-facebook:hover {
+    color: #0e52e6;
+}
+.fa-instagram:hover {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+.fa-linkedin-in:hover {
+    color: #0e5ea8;
+}
+.fa-whatsapp:hover {
+    color: rgb(41, 206, 41);
+}
+.fa-youtube:hover {
+    color: red;
+}
+.fa-google:hover  {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+/* PRINCIPAL */
+body {
+    background-color: #f0f0f3fa;
+}
+.principal {
+    width: 100%;
+    float: left;
+    padding: 16px 8%;
+}
+.sobre {
+    width: 69%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.fa-phone-alt {
+    font-size: smaller;
+}
+.fa-mobile-alt {
+    font-size: medium;
+}
+.sobre h2 {
+    margin-bottom: 15px;
+    background-color: #c3cbec;
+    border-radius: 13px;
+    text-align: center;
+}
+.sobre img {
+    width: 39%;
+    float: left;
+    border-radius: 6px;
+    margin: 0 15px 10px 0;
+}
+.sobre p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+/* ONDE ESTAMOS */
+.onde {
+    width: 31%;
+    float: right;
+    padding: px 10px;
+    background-color: rgb(220, 216, 224);
+    border-radius: 13px;
+}
+.onde h2 {
+    text-align: center;
+    background-color: #c3cbec;
+    border-radius: 13px;
+    margin-bottom: 5px;
+}
+.onde iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 13px;
+    border-color: #c3cbec;
+    border-style: double;
+}
+.onde p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+.onde a {
+    color: rgb(59, 117, 194);
+}
+.onde a:hover {
+    color: #000000;
+}
+.onde ul {
+    background-color: rgb(220, 216, 224);
+    border-radius: 13px;
+    text-align: center;
+    height: 70px;
+}
+/* NEWSLETTER */
+.newsletter {
+    width: 100%;
+    height: 220px;
+    float: left;
+    background-color: RGB(0,0,0);
+    padding: 50px 8%;
+}
+.newsletter h3 {
+    color: white;
+    font-size: 1.8em;
+}
+.newsletter p {
+    font-size: 1.2em;
+    color: white;
+    margin-left: 20px;
+}
+.newsletter form {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+.newsletter form input {
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: solid white;
+    background-color: initial;
+    color: white;
+    border-radius: 13px;
+}
+.newsletter button {
+    width: 17%;
+    padding: 15px 10px;
+    border-radius: 13px;
+    float: right;
+    cursor: pointer;
+}
+.newsletter button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 13px;
+    border: solid white;
+}
+.newsletter h3 {
+    text-align: center;
+}
+.rodape {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #6e69df;
+}
+.rodape p {
+    color: #000000;
+    text-align: center;
+    margin-top: 15px;
+}
+@media (max-width: 895px) {
+    .contato ul li a {
+        font-size: 10px;
+        word-break: break-all;
+    }
+    .contato h2 {
+        font-size: .7rem;
+    } 
+    .sobre img {
+        width: 200px 10%;
+        height: 220;
+    }
+    .cabecalho button {
+        width: 20%;
+
+    }
+    .cabecalho input {
+        width: 35%;
+    }
+    .conteudo h1 {
+        font-size: larger;
+    }
+    .conteudo h2 {
+        font-size: large;
+    }
+}
+@media (max-width: 1150px) {
+    .sobre h3 {
+        font-size: medium;
+        font-style: oblique;
+        padding: 0 0 10px 100px;    
+    }
+}
+@media (max-width: 645px) {
+    .cabecalho {
+        width: 100%;
+        height: 240px;
+    }
+    .logo a {
+        margin-left: 100px;
+        text-align: center;
+    }
+    .cabecalho h2 {
+        margin-top: 15px;
+        float: left;
+        padding: 2px 0 1px 30px;
+    }
+    .cabecalho form {
+        width: 100%;
+    }
+    .cabecalho input[type = 'text'] {
+        float: left;
+        width: 78%;
+    }
+    .cabecalho button{
+        width: 21.5%;
+        float: right;
+        margin-right: 0;
+    }
+    .menu {
+        width: 100%;
+        height: 120px;
+    }
+    .menu li {
+        width: 20%;
+        height: 100%;
+    }
+    .social-icons {
+        width: 30%;
+        padding: 0 1px 0 1px;
+        height: 100%;
+    }
+    .sobre h3 {
+        float: left;
+        text-align: left;
+        padding: 0 0 2px 0;
+    }
+    .conteudo h1 {
+        font-size: large;
+    }
+    .conteudo h2 {
+        font-size: medium;
+    }
+}
